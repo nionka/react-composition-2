@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-composition-2/static/css/main.c36d589f.chunk.css",
+    "main.js": "/react-composition-2/static/js/main.3df29d71.chunk.js",
+    "main.js.map": "/react-composition-2/static/js/main.3df29d71.chunk.js.map",
+    "runtime-main.js": "/react-composition-2/static/js/runtime-main.263569ba.js",
+    "runtime-main.js.map": "/react-composition-2/static/js/runtime-main.263569ba.js.map",
+    "static/js/2.5913d7a2.chunk.js": "/react-composition-2/static/js/2.5913d7a2.chunk.js",
+    "static/js/2.5913d7a2.chunk.js.map": "/react-composition-2/static/js/2.5913d7a2.chunk.js.map",
+    "static/js/3.d61c2179.chunk.js": "/react-composition-2/static/js/3.d61c2179.chunk.js",
+    "static/js/3.d61c2179.chunk.js.map": "/react-composition-2/static/js/3.d61c2179.chunk.js.map",
+    "index.html": "/react-composition-2/index.html",
+    "static/css/main.c36d589f.chunk.css.map": "/react-composition-2/static/css/main.c36d589f.chunk.css.map",
+    "static/js/2.5913d7a2.chunk.js.LICENSE.txt": "/react-composition-2/static/js/2.5913d7a2.chunk.js.LICENSE.txt",
+    "static/media/turkana2.67efa476.jpg": "/react-composition-2/static/media/turkana2.67efa476.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.263569ba.js",
+    "static/js/2.5913d7a2.chunk.js",
+    "static/css/main.c36d589f.chunk.css",
+    "static/js/main.3df29d71.chunk.js"
+  ]
+}
