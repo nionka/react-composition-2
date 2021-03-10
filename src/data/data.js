@@ -1,10 +1,13 @@
+import africa from '../img/turkana2.jpg';
+import idea from '../img/idea.png';
+
 const news = [
-    {logo: 'http://niagara-drinks.ru/wp-content/uploads/2019/09/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0-300x300.png', title: 'На Кубани вырос огромный помидор', link: 'https://www.google.com'},
-    {logo: 'http://niagara-drinks.ru/wp-content/uploads/2019/09/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0-300x300.png', title: 'Наконец-то изобрели вечный двигатель', link: 'https://www.google.com'},
-    {logo: 'http://niagara-drinks.ru/wp-content/uploads/2019/09/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0-300x300.png', title: 'Мобильные телефоны стали еще тоньше', link: 'https://www.google.com'},
-    {logo: 'http://niagara-drinks.ru/wp-content/uploads/2019/09/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0-300x300.png', title: 'Кролики отказались есть морковку', link: 'https://www.google.com'},
-    {logo: 'http://niagara-drinks.ru/wp-content/uploads/2019/09/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0-300x300.png', title: 'Вышел новый Форсаж 255', link: 'https://www.google.com'},
-    {logo: 'http://niagara-drinks.ru/wp-content/uploads/2019/09/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0-300x300.png', title: 'Элкисир молодости уже в продаже', link: 'https://www.google.com'},
+    {logo: idea, title: 'На Кубани вырос огромный помидор', link: 'https://www.google.com'},
+    {logo: idea, title: 'Наконец-то изобрели вечный двигатель', link: 'https://www.google.com'},
+    {logo: idea, title: 'Мобильные телефоны стали еще тоньше', link: 'https://www.google.com'},
+    {logo: idea, title: 'Кролики отказались есть морковку', link: 'https://www.google.com'},
+    {logo: idea, title: 'Вышел новый Форсаж 255', link: 'https://www.google.com'},
+    {logo: idea, title: 'Элкисир молодости уже в продаже', link: 'https://www.google.com'},
 ];
 
 const stocks = [
@@ -14,7 +17,7 @@ const stocks = [
 ];
 
 const announs = {
-    src: 'http://okafrica.org/files/images/blog/turkana/turkana2.jpg',
+    src: africa,
     alt: 'Africa',
     title: 'Как в Африке празднуют 8 марта'
 }
