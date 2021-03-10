@@ -1,38 +1,193 @@
-.App {
-  text-align: center;
+.container {
+  width: 80%;
+  padding: 20px 10px;
+  margin: 0 auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+  font-size: 20px;
+  font-weight: 500;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.title a, .title {
+  color: rgb(3, 3, 97);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+  margin-left: 121px;
+}
+
+.announs {
+  width: 250px;
+  margin: 0 auto;
+}
+
+.announs h2 {
+  margin-bottom: 15px;
+  font-size: 17px;
+}
+
+.announs__title {
+  margin-top: 10px;
+
+}
+
+.announs__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.img-box {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.newsBlock {
+  margin-bottom: 10px;
+}
+
+.newsBlock span {
+  margin-left: 15px;
+}
+
+.news__item img {
+  display: inline-block;
+  width: 15px;
+  margin-right: 5px;
+}
+
+.news__item {
+  margin-bottom: 3px;
+}
+
+.stocks {
+  display: flex;
+}
+
+.stocks li {
+  margin-left: 10px;
+}
+
+.stock__value {
+  color: rgb(59, 58, 58);
+  margin-left: 5px;
+}
+
+.search-box {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 15px;
+}
+
+.logo {
+  margin-right: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+.search {
+  flex-grow: 1;
+}
+
+.form {
+  display: flex;
+  height: 40px;
+}
+
+.form input {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid red;
+}
+
+.form button {
+  width: 70px;
+  border: 1px solid red;
+  background-color: red;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.category {
+  display: flex;
+  margin-bottom: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.category li {
+  margin-right: 10px;
 }
+
+.promo {
+  height: 70px;
+  overflow: hidden;
+  margin-top: 10px;
+  margin-left: 122px;
+}
+
+.promo img {
+  object-fit: cover;
+  width: 100%;
+  height: 70px;
+}
+
+.media {
+  margin-left: 121px;
+  margin-top: 25px;
+  columns: 3;
+  column-gap: 2em;
+}
+
+.mediaBlock {
+  max-width: 230px;
+  margin-bottom: 20px;
+  break-inside: avoid;  
+}
+
+.mediaBlock .title {
+  margin-bottom: 10px;
+}
+
+.weather {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.weather span {
+  font-size: 25px;
+}
+
+.weather img {
+  width: 50px;
+}
+
+.visit {
+  font-size: 13px;
+}
+
+.visit span {
+  font-weight: 700;
+}
+
+.visit div {
+  margin-bottom: 5px;
+}
+
+.guide {
+  font-size: 14px;
+  color: rgb(104, 100, 100);
+}
+
+.guide span {
+  margin-right: 7px;
+  color: black;
+}
+
+
+
